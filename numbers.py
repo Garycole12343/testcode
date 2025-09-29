@@ -17,9 +17,14 @@ rounded_number = round(133.85826771653544, 2)
 print(rounded_number)
 
 inch = float("133.86")
-feet = inch / 12
-print (inch, "inch in feet is", feet)
-rounded_number = round(11.155000000000001)
+foot = inch / 12
+print (inch, "inch in feet is",foot)
+rounded_number = round(11.155000000000001 ,2)
 print(rounded_number)
+total_feet= 11.16
+feet = int(total_feet)
+decimal_feet = (total_feet-feet)
+inches= round(decimal_feet *12, 1)
+print(total_feet + inches)
+
 remaining_inches=inch/ 12
-print(remaining_inches - 11)
